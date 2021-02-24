@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Navigation */
+.section-bg{
+    background-color: #FFFBF0;
+}
+.header-area .main-menu img{
+    width: 291px;
+}
+.header-area {    
+    padding: 20px 100px 0 100px;
+}
+.header-area .main-menu .navbar-nav .nav-item a{
+    font-weight: 600;
+    color: #3C3C3C;
+    padding-left: 50px;    
+}
+/* End */
+/* Top-Part */
+.top-part{
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+h1{
+    font-size: 80px;
+    color: #FABE4C;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1;
+}
+p{
+    font-size: 15px;
+}
+.dark-purple, h4{
+    color: #363958;    
+}
+.buy-now{
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(180deg, #A0B840, #90AA29);
+    padding: 15px 30px;
+    border-radius: 10px;        
+}
+.model-img img{
+    width: 100%;
+    padding-left: 30px;
+    margin-top: -40px;
+}
+/* End */
+/* Product-area */
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+h3{
+    color: #FABE4C;
+    font-size: 36px;
+    font-weight: 700;
+    padding-right: 1rem;        
+}
+h4{
+    font-size: 24px;
+    font-weight: 900;
+}
+.penguin-card{
+    border: none;    
+    padding: 0 20px;    
+    background-color: white;    
+}
+
+.card img{   
+    background-color: #F1F1F1;
+    padding: 15px 55px;
+    border-radius: 15px;    
+}
+.penguin-card-footer{    
+    background-color: white;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+/* End   */
+/* Online-Store */
+.online-store img{
+    width: 100%;
+}
+.online-shopping{
+    background-color: white;
+    margin-bottom: 20px;
+}
+.online-shopping img{
+    width: 80px;
+    margin-right: 30px;
+}
+/* End */
+/* New Arrival */
+.new-card{
+    border: none;
+    border-radius: none;
+    background-color: #f4f4fc;
+}
+h5{
+    color: #363958;    
+    font-weight: 900;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+.new-arrival{
+    position: relative;
+}
+.new-arrival input{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    height: 40px;
+    width: 115px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    text-align: center;
+    visibility: hidden;
+}
+.new-card:hover input{
+    visibility: visible;
+    transform: 5s;
+    background-color: #484b6e;
+}
+.new-card{
+    position: relative; 
+}
+.contact{
+    background-color: #A0B840;
+}
+#white-text{
+    color: whitesmoke;
+}
+.notified{
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline-style: none;
+    display: inline-block;
+    background-color: #363958;
+
+} 
+.contact input{
+    height: 50px;
+    width: 100%;
+    outline-style: none;
+    border: none;
+    color: gray;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+.box{
+    box-shadow: 0px 0px 20px -10px black;
+
+}
+.spacing{
+    height: 100px;
+}
